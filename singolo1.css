@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: auto;
+}
+
+header {
+    color: white;
+    width: 1020px;
+    background-color: #2d303a;
+    text-transform: uppercase;
+}
+
+.slider {
+    width: 1020px;
+    background-color: #eb7871;
+}
+
+.services {
+    text-transform: none;
+    width: 1020px;
+    background-color: #f2f2f2;
+    color: #647389;
+}
+
+.design {
+    width: 280px; 
+}
