@@ -4,15 +4,76 @@
     box-sizing: auto;
 }
 
-header, .portfolio, .about-us{
+h1{
+    padding: 40px;
+    padding-top: 60px;
+    padding-bottom: 25px;
+}
+
+header, .main, .about-us{
     width: 1020px;
     margin: 0 auto;
     background-color: #2d303a;
     color: #767e9e;
 }
 
+nav{
+    padding: 30px;
+    padding-left: 35px;
+}   
+
+header p, .about-us p{
+    padding-left: 37px;
+}
+
+nav span{
+    margin: 5px;
+    font-size: 10px;
+    padding: 5px;
+    border: 1px solid #d9d9d9; 
+    border-radius: 8px;
+}
+
+li{
+    display: inline;
+}
+
 .about-us {
     background-color: #f2f2f2;
     color: #767e9e;
     box-shadow: 0 7px 0 0 #ffffff;
+    box-shadow: 0 -6.5px 0 0 #323746;
+}
+
+.person{
+    display: flex;
+    justify-content: space-between;
+}
+
+.line, .line:last-child{
+    padding: 0px;
+    margin: 40px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between ;
+}
+
+
+.line:first-child{
+    margin-bottom: 10px;
+    margin-top: -7px;
+    display: flex;
+    justify-content: space-between ;
+}
+
+.line:last-child{
+    padding-bottom: 72.8px;
+    margin-top: -20px;
+    margin-bottom: 0;
+}
+
+.about-us h3{
+    padding: 40px;
+    padding-top: 60px;
+    padding-bottom: 25px;    
 }
