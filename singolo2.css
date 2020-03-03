@@ -1,3 +1,17 @@
+@font-face {
+    font-family: "Lato";
+    src: url(assets/fonts/Lato-Light.ttf);
+}
+@font-face {
+    font-family: "Lato-B";
+    src: url(assets/fonts/Lato-Bold.ttf);
+}
+@font-face {
+    font-family: "Lato-R";
+    src: url(assets/fonts/Lato-Regular.ttf);
+}
+  
+
 *{
     margin: 0;
     padding: 0;
@@ -5,9 +19,11 @@
 }
 
 h1{
+    font-size: 28px;
     padding: 40px;
     padding-top: 60px;
     padding-bottom: 25px;
+    margin-bottom: -10px;
 }
 
 header, .main, .about-us{
@@ -18,20 +34,47 @@ header, .main, .about-us{
 }
 
 nav{
+    display: flex;
+    justify-content: space-around;
     padding: 30px;
-    padding-left: 35px;
+    width: 296px;
+    padding-left: 37px;
+    margin-bottom: -15px;
+    margin-top: -16px;
 }   
 
 header p, .about-us--description p{
-    padding-left: 37px;
+    padding-left: 40px;
+    margin-bottom: -10px;
+}
+
+header p{
+    font-size: 16px;
+    font-weight: 100;
+    padding-top: 6px;
 }
 
 nav span{
-    margin: 5px;
+    margin: 2.95px;
     font-size: 10px;
-    padding: 5px;
-    border: 1px solid #d9d9d9; 
-    border-radius: 8px;
+    padding: 6px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    font-size: 0.67em;
+    color: #767e9e;
+    border: 1px solid #767e9e;
+    font-weight: 1000;
+    border-radius: 5px;
+}
+
+nav span:first-child{
+    border: 1px solid #d9d9d9;
+    color: #d9d9d9;
+}
+
+nav span:hover{
+    color: white;
+    cursor: pointer;
 }
 
 li{
@@ -47,7 +90,16 @@ li{
 }
 
 .person--description{
+    padding-top: 10px;
     margin: 0.5px;
+    width: 250px;
+    font-weight: 500;
+    font-size: 11px;
+    text-align: justify;
+}
+
+.person--description ul{
+    margin-top: 17px;
 }
 
 .people{
@@ -55,14 +107,19 @@ li{
     justify-content: space-between;
     margin: 39px;
     margin-right: 90px;
-    margin-top: 59px;
+    margin-top: 52px;
 }
 
 .person{
     width: 250px;
 }
 
-.line, .line:last-child{
+.person h2{
+    padding-top: 5px;
+    font-size: 16px;
+}
+
+.line{
     padding: 0px;
     margin: 40px;
     margin-top: 20px;
@@ -85,8 +142,23 @@ li{
 }
 
 .about-us h3{
+    color: #666d89;
+    font-size: 25px;
     padding: 40px;
     padding-top: 60px;
     padding-bottom: 25px;    
 }
 
+.about-us h2{
+    color: #666d89;
+    padding-top: 5px;
+}
+
+.portfolio{
+    margin-top: 1px;
+}
+
+.about-us--description{
+    line-height: 2.2em;
+    font-size: 14px;  
+}
