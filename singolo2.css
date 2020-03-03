@@ -22,7 +22,7 @@ nav{
     padding-left: 35px;
 }   
 
-header p, .about-us p{
+header p, .about-us--description p{
     padding-left: 37px;
 }
 
@@ -35,6 +35,7 @@ nav span{
 }
 
 li{
+    margin-left: 0.5px;
     display: inline;
 }
 
@@ -45,9 +46,20 @@ li{
     box-shadow: 0 -6.5px 0 0 #323746;
 }
 
-.person{
+.person--description{
+    margin: 0.5px;
+}
+
+.people{
     display: flex;
     justify-content: space-between;
+    margin: 39px;
+    margin-right: 90px;
+    margin-top: 59px;
+}
+
+.person{
+    width: 250px;
 }
 
 .line, .line:last-child{
@@ -77,3 +89,4 @@ li{
     padding-top: 60px;
     padding-bottom: 25px;    
 }
+
