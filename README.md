@@ -1,1 +1,1 @@
-https://razmanov666.github.io/singolo/
+https://razmanov666.github.io/singolo/singolo.html
