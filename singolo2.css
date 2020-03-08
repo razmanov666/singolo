@@ -1,0 +1,164 @@
+@font-face {
+    font-family: "Lato";
+    src: url(assets/fonts/Lato-Light.ttf);
+}
+@font-face {
+    font-family: "Lato-B";
+    src: url(assets/fonts/Lato-Bold.ttf);
+}
+@font-face {
+    font-family: "Lato-R";
+    src: url(assets/fonts/Lato-Regular.ttf);
+}
+  
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: auto;
+}
+
+h1{
+    font-size: 28px;
+    padding: 40px;
+    padding-top: 60px;
+    padding-bottom: 25px;
+    margin-bottom: -10px;
+}
+
+header, .main, .about-us{
+    width: 1020px;
+    margin: 0 auto;
+    background-color: #2d303a;
+    color: #767e9e;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    width: 296px;
+    padding-left: 37px;
+    margin-bottom: -15px;
+    margin-top: -16px;
+}   
+
+header p, .about-us--description p{
+    padding-left: 40px;
+    margin-bottom: -10px;
+}
+
+header p{
+    font-size: 16px;
+    font-weight: 100;
+    padding-top: 6px;
+}
+
+nav span{
+    margin: 2.95px;
+    font-size: 10px;
+    padding: 6px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    font-size: 0.67em;
+    color: #767e9e;
+    border: 1px solid #767e9e;
+    font-weight: 1000;
+    border-radius: 5px;
+}
+
+nav span:first-child{
+    border: 1px solid #d9d9d9;
+    color: #d9d9d9;
+}
+
+nav span:hover{
+    color: white;
+    cursor: pointer;
+}
+
+li{
+    margin-left: 0.5px;
+    display: inline;
+}
+
+.about-us {
+    background-color: #f2f2f2;
+    color: #767e9e;
+    box-shadow: 0 7px 0 0 #ffffff;
+    box-shadow: 0 -6.5px 0 0 #323746;
+}
+
+.person--description{
+    padding-top: 10px;
+    margin: 0.5px;
+    width: 250px;
+    font-weight: 500;
+    font-size: 11px;
+    text-align: justify;
+}
+
+.person--description ul{
+    margin-top: 17px;
+}
+
+.people{
+    display: flex;
+    justify-content: space-between;
+    margin: 39px;
+    margin-right: 90px;
+    margin-top: 52px;
+}
+
+.person{
+    width: 250px;
+}
+
+.person h2{
+    padding-top: 5px;
+    font-size: 16px;
+}
+
+.line{
+    padding: 0px;
+    margin: 40px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between ;
+}
+
+
+.line:first-child{
+    margin-bottom: 10px;
+    margin-top: -7px;
+    display: flex;
+    justify-content: space-between ;
+}
+
+.line:last-child{
+    padding-bottom: 72.8px;
+    margin-top: -20px;
+    margin-bottom: 0;
+}
+
+.about-us h3{
+    color: #666d89;
+    font-size: 25px;
+    padding: 40px;
+    padding-top: 60px;
+    padding-bottom: 25px;    
+}
+
+.about-us h2{
+    color: #666d89;
+    padding-top: 5px;
+}
+
+.portfolio{
+    margin-top: 1px;
+}
+
+.about-us--description{
+    line-height: 2.2em;
+    font-size: 14px;  
+}
